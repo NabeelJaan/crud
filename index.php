@@ -1,17 +1,8 @@
 <?php
-include 'header.php';
+    include 'header.php';
 ?>
 <div id="main-content">
     <h2>All Records</h2>
-
-    <?php
-        // Create Database connection
-        $conn = mysqli_connect("localhost","root","","crud"); or die("Connection Failed, Please Try again.");
-        // Run Query to fetch the data from database
-        $sql = "SELECT * from students JOIN studentclass WHERE students.sClass = studentclass.cid";
-        // Run Query
-        $result = $mysql_query ($conn, $sql) or die("Query failed");
-    ?>
 
     <table cellpadding="7px">
         <thead>
