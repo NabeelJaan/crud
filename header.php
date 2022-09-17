@@ -15,7 +15,6 @@
         <div id="menu">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="icome.php">Add Income</a></li>
                 <li><a href="add.php">Add Expense</a></li>
                 <li><a href="update.php">Update</a></li>
                 <li><a href="delete.php">Delete</a></li>

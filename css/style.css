@@ -57,9 +57,10 @@ body{
      padding: 25px;
     min-height: 400px;
 }
-#main-content h2{
-    margin: 0 0 10px;
+#main-content h2 {
+    margin: 0 0 30px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 #main-content table{
